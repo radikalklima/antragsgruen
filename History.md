@@ -2,6 +2,7 @@
 
 ## Version 4.7.0 [not released yet]
 
+- Applications (or other motion types with images) now receive a `og:image` tag for better image detection when sharing the applications.
 - Internal: the login system now supports plugins for retrieving user accounts from external sources, e.g. CMS systems with an existing user database. As an example, a integration into Drupal/CiviCRM can be found in the plugins/drupal_civicrm-folder.
 - Internal: Plugins can now provide custom amendment numberings and add extra settings and data fields for amendments and motions.
 
